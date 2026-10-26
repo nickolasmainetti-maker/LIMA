@@ -1,0 +1,22 @@
+body {
+
+    background-color: #f4f0df;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #222;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+h2, h3, h4, h5, h6 {
+
+    color: #444;
+    margin-top: 0;
+}
+
+link {
+    color: #0066cc;
+    text-decoration: none;
+}

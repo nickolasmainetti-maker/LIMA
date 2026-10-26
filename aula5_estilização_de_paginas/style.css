@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.destaque {
+    color: rgb(102, 0, 255);
+    font-weight: bold;
+}
+
+#titulo-principal {
+    text-align: center;
+    color: #ff0000;
+}
+
+p { /* seletor por tag */
+   font-size: 18px;
+   line-height: 1.5;
+}
+
+h1, h2, h3{
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #006015;
+}
+
+h4 {
+    line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+imagens {
+    width: 200px;
+    height: auto;
+    
+    border:2px solid black;
+
+    display: block;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: square;
+    list-style-image: url('assets/lula.jpg');
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-spacing: 5px;
+}
+        body{
+            background-color: black;
+    
+        }
+        h1 {
+            color:hotpink;
+        }
+        /* Link normal */
+        a:link {
+            color: blue;
+            text-decoration: none;
+            /* text-decoration: none; */
+        }
+        /* Link visitado */
+        a:visited {
+            color: yellow;
+        }
+        /* Quando o mouse passa por cima do link */
+        a:hover {
+            color: red;
+            font-size: 40px;
+            text-decoration: underline;
+        }
+        /* Enquanto o link é clicado */
+        a:active {
+            color: rgb(255, 115, 0);
+            text-decoration: none;
+        }
+
+    
