@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>box model div</title>
+</head>
+<body>
+
+    <h2>Box-sizing:</h2>
+    <div class="content-box">Content-box (padrão)</div>
+    <div class="border-box">Border-box</div>
+    <title>Box Model</title>
+    <style>
+        div {
+            margin: 20px;
+        }
+
+        .content-box {
+            background-color: cyan;
+            width: 300px;
+            padding: 25px;
+            border: 5px solid red;
+
+            /* Tamanho total: Soma width + padding + border = 300 + 25*2 + 5*2 = 360px */
+        }
+
+        .border-box {
+            background-color: rgb(120, 121, 121);
+            width: 300px;
+            padding: 25px;
+            border: 5px solid red;
+            box-sizing: border-box;
+
+            /* Tamanho total: width = 300px */
+        }
+    </style>
+</body>
+</html>

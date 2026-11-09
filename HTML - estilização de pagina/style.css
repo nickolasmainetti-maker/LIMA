@@ -1,0 +1,123 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(252, 252, 236);
+}
+
+
+.destaque {
+    color: rgb(5, 5, 6);
+    font-weight: bold;
+}
+
+#titulo-principal {
+    text-align: center;
+    color: #ff0000;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #006015;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(6, 6, 6);
+}
+
+h4 {
+    line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+
+p {
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border: 2px solid black;
+    display: block;
+    margin: 0 auto;
+}
+
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-spacing: 5px;
+    margin: 20px auto;
+}
+
+td, th {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+
+tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+
+ul.lista-conteudo {
+    list-style-type: square; /* Personalização do marcador */
+    padding-left: 20px;
+    margin: 15px 0;
+}
+
+
+ul.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: blueviolet;
+    overflow: hidden;
+    text-align: center;
+}
+
+ul.menu li {
+    float: left;
+}
+
+
+a {
+    display: block;
+    padding: 14px 20px;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+
+a:link {
+    color: rgb(107, 13, 147);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 255, 4);
+}
+
+a:hover {
+    color: red;
+    background-color: brown;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(255, 115, 0);
+    text-decoration: none;
+}
